@@ -1,26 +1,16 @@
 package com.umangx.app;
-import de.vandermeer.asciitable.AsciiTable;
 
 public class App
 {
     public static void main(String[] args) throws InterruptedException {
 
-        AsciiTable at = new AsciiTable();
-        at.addRule();
-        at.addRow("Process Name", "Burst Time","Arrival");
-        at.addRule();
-        at.addRow("P1", "5","0");
-        at.addRule();
-        at.addRow("P2", "4","1");
-        at.addRule();
-        at.addRow("P3", "2","2");
-        at.addRule();
-
-        //rendering and printing the data
-        String rend = at.render();
-        System.out.println(rend);
-
-
+        gantchart chart = new gantchart();
+        chart.add_process("p1",5,0);
+        chart.add_process("p1",5,0);
+        chart.add_process("p1",5,0);
+        chart.add_process("p1",5,0);
+        chart.add_process("p1",5,0);
+        System.out.println(chart.display());
 
         //progress bar testing
         progress tester = new progress(5,"Process 1");
