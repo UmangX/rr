@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a10a5f75-c5f3-4553-ab69-4df648c528ea" name="Changes" comment="unified the progress into process object">
+    <list default="true" id="a10a5f75-c5f3-4553-ab69-4df648c528ea" name="Changes" comment="added movement on the chart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/gantchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umangx/app/gantchart.java" afterDir="false" />
     </list>
@@ -77,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="unified the progress into process object" />
-    <option name="LAST_COMMIT_MESSAGE" value="unified the progress into process object" />
+    <MESSAGE value="added movement on the chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="added movement on the chart" />
   </component>
 </project>
