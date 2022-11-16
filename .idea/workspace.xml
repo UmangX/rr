@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a10a5f75-c5f3-4553-ab69-4df648c528ea" name="Changes" comment="" />
+    <list default="true" id="a10a5f75-c5f3-4553-ab69-4df648c528ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umangx/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/gantchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umangx/app/gantchart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umangx/app/process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/progress.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +23,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/umangx/app/App.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="19" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="300" />
+    </hideBySeverity>
   </component>
   <component name="ProjectId" id="2HY9NvK2eEND4mhnQUlyEoJVFyQ" />
   <component name="ProjectViewState">
@@ -33,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
