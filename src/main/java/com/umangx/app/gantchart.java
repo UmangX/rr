@@ -8,7 +8,6 @@ public class gantchart {
         Queue<process> main = new LinkedList<process>();
         int time_q = 2;
         int timer = 0;
-        int current = 0;
 
         public void add_process(String name,int btime,int arrival){
             process p1 = new process(name,btime,arrival);
@@ -16,10 +15,6 @@ public class gantchart {
         }
         public void addtoback(process p1){
             main.add(p1);
-        }
-
-        public int size(){
-            return main.size();
         }
 
         public void display(){
@@ -37,17 +32,26 @@ public class gantchart {
         //todo add the damn simulation
 
         public void start() throws InterruptedException {
-            while(main.size()!=0){
-                System.out.println("AT TIME => "+timer);
-                display();
-                for(process x : main){
-                    if(x.arrival == timer){
-                        x.waiting = true;
-                    }
-                }
 
+
+            //runs while process/chart size is not cleared
+            while(main.size()!=0){
+                System.out.println("Current Time : "+timer);
                 Thread.sleep(1000);
-                timer++;
+                for(int i=0;i<2;i++){
+                    process current_p = main.peek();
+                    if(current_p.time_left == 1) {
+                        current_p.time_left = current_p.time_left - 1;
+                        display();
+                        main.poll();
+                    }else{
+                        current_p.time_left = current_p.time_left -1;
+                        display();
+                        main.add(current_p);
+                        main.poll();
+                    }
+                    timer++;
+                }
             }
         }
 }

@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a10a5f75-c5f3-4553-ab69-4df648c528ea" name="Changes" comment="">
+    <list default="true" id="a10a5f75-c5f3-4553-ab69-4df648c528ea" name="Changes" comment="unified the progress into process object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umangx/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/gantchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umangx/app/gantchart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/umangx/app/process.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/umangx/app/progress.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,4 +64,19 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="unified the progress into process object" />
+    <option name="LAST_COMMIT_MESSAGE" value="unified the progress into process object" />
+  </component>
 </project>
