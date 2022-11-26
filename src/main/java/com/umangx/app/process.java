@@ -1,11 +1,13 @@
 package com.umangx.app;
 
 public class process {
+
+
     int btime = 0;
     public String name;
     int arrival = 0;
     StringBuilder bar = new StringBuilder();
-    boolean waiting = false;
+    String State = "New State";
     int time_left = 0;
 
     public  process(String new_name,int new_btime,int new_arrival){
@@ -17,9 +19,10 @@ public class process {
         bar.setCharAt(0,'[');
         bar.setCharAt(bar.length()-1,']');
     }
+    
     public String get_progress(){
         int time_spent = Math.abs(btime-time_left);
-        for(int i=1;i<time_spent;i++){
+        for(int i=1;i<time_spent+1;i++){
             bar.setCharAt(i,'=');
         }
         return bar.toString();
